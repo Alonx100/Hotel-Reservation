@@ -31,8 +31,6 @@ while PlayAgain.lower() == "y":
          global date1
          year, month, day = map(int, Arrival.split("-"))
          date1 = date(year, month, day)
-        # except ValueError:
-           # raise ValueError("Date in not in the correct format")
 
     DateGetter()
 
@@ -81,7 +79,7 @@ while PlayAgain.lower() == "y":
     while date2 <= date1:
    
         print("\nYour departure must be after your arrival.")
-        Arrival = input("\nYour departure date please: ")
+        Departure = input("\nYour departure date please: ")
         ErrorDate2()
         DateGetter2()
     
@@ -90,10 +88,10 @@ while PlayAgain.lower() == "y":
 
     Night = date2 - date1
     NightRate = 85.00
-    if date1 or date2 != date.month("08"):
-        NightRate = 85.00
-    else:
+    if date1.month == 8 or date2.month == 8:
         NightRate = 105.00
+    else:
+        NightRate = 85.00
     TotalCalculate = NightRate * Night.days
     print("\nStaying for", Night.days, "Nights will cost you " +  "$" + str(TotalCalculate))
 
