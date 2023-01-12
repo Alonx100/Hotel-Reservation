@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Hotel Reservation", "Hotel Reservation.pyproj", "{963B1834-C1FB-4A79-AF0F-2987F00169A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{963B1834-C1FB-4A79-AF0F-2987F00169A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{963B1834-C1FB-4A79-AF0F-2987F00169A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10842D74-D52A-4AC2-A539-4F78F05617D6}
+	EndGlobalSection
+EndGlobal
